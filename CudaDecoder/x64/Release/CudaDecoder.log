@@ -1,0 +1,393 @@
+﻿  Compiling CUDA source file kernel.cu...
+  
+  C:\Users\Roman\source\rust\rust_is_an_immense_pain\_cuda_\CudaDecoder>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.6\bin\nvcc.exe" -gencode=arch=compute_75,code=\"sm_75,compute_75\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.32.31114\bin\HostX64\x64" -x cu    -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.6\include"     --keep-dir x64\Release -use_fast_math -maxrregcount=32  --machine 64 --compile -cudart static    -DWIN32 -DWIN64 -DNDEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W0 /nologo /Ox /Fdx64\Release\vc143.pdb /FS   /MT /GR-" -o C:\Users\Roman\source\rust\rust_is_an_immense_pain\_cuda_\CudaDecoder\x64\Release\kernel.cu.obj "C:\Users\Roman\source\rust\rust_is_an_immense_pain\_cuda_\CudaDecoder\kernel.cu" 
+C:\Users\Roman\source\rust\rust_is_an_immense_pain\_cuda_\CudaDecoder\kernel.cu(299): warning #2464-D: conversion from a string literal to "char *" is deprecated
+  
+C:\Users\Roman\source\rust\rust_is_an_immense_pain\_cuda_\CudaDecoder\kernel.cu(301): warning #2464-D: conversion from a string literal to "char *" is deprecated
+  
+C:\Users\Roman\source\rust\rust_is_an_immense_pain\_cuda_\CudaDecoder\kernel.cu(302): warning #2464-D: conversion from a string literal to "char *" is deprecated
+  
+C:\Users\Roman\source\rust\rust_is_an_immense_pain\_cuda_\CudaDecoder\kernel.cu(484): warning #546-D: transfer of control bypasses initialization of:
+              variable "decode_success_end"
+  (491): here
+              variable "decode_success_device"
+  (492): here
+              variable "decode_success_buffer_end"
+  (524): here
+              variable "decode_success_buffer_device"
+  (525): here
+              variable "sync"
+  (555): here
+              variable "sync_stream"
+  (566): here
+              variable "start"
+  (577): here
+              variable "decrypt_start"
+  (578): here
+              variable "i"
+  (580): here
+  
+C:\Users\Roman\source\rust\rust_is_an_immense_pain\_cuda_\CudaDecoder\kernel.cu(489): warning #546-D: transfer of control bypasses initialization of:
+              variable "decode_success_end"
+  (491): here
+              variable "decode_success_device"
+  (492): here
+              variable "decode_success_buffer_end"
+  (524): here
+              variable "decode_success_buffer_device"
+  (525): here
+              variable "sync"
+  (555): here
+              variable "sync_stream"
+  (566): here
+              variable "start"
+  (577): here
+              variable "decrypt_start"
+  (578): here
+              variable "i"
+  (580): here
+  
+C:\Users\Roman\source\rust\rust_is_an_immense_pain\_cuda_\CudaDecoder\kernel.cu(495): warning #546-D: transfer of control bypasses initialization of:
+              variable "decode_success_buffer_end"
+  (524): here
+              variable "decode_success_buffer_device"
+  (525): here
+              variable "sync"
+  (555): here
+              variable "sync_stream"
+  (566): here
+              variable "start"
+  (577): here
+              variable "decrypt_start"
+  (578): here
+              variable "i"
+  (580): here
+  
+C:\Users\Roman\source\rust\rust_is_an_immense_pain\_cuda_\CudaDecoder\kernel.cu(500): warning #546-D: transfer of control bypasses initialization of:
+              variable "decode_success_buffer_end"
+  (524): here
+              variable "decode_success_buffer_device"
+  (525): here
+              variable "sync"
+  (555): here
+              variable "sync_stream"
+  (566): here
+              variable "start"
+  (577): here
+              variable "decrypt_start"
+  (578): here
+              variable "i"
+  (580): here
+  
+C:\Users\Roman\source\rust\rust_is_an_immense_pain\_cuda_\CudaDecoder\kernel.cu(505): warning #546-D: transfer of control bypasses initialization of:
+              variable "decode_success_buffer_end"
+  (524): here
+              variable "decode_success_buffer_device"
+  (525): here
+              variable "sync"
+  (555): here
+              variable "sync_stream"
+  (566): here
+              variable "start"
+  (577): here
+              variable "decrypt_start"
+  (578): here
+              variable "i"
+  (580): here
+  
+C:\Users\Roman\source\rust\rust_is_an_immense_pain\_cuda_\CudaDecoder\kernel.cu(510): warning #546-D: transfer of control bypasses initialization of:
+              variable "decode_success_buffer_end"
+  (524): here
+              variable "decode_success_buffer_device"
+  (525): here
+              variable "sync"
+  (555): here
+              variable "sync_stream"
+  (566): here
+              variable "start"
+  (577): here
+              variable "decrypt_start"
+  (578): here
+              variable "i"
+  (580): here
+  
+C:\Users\Roman\source\rust\rust_is_an_immense_pain\_cuda_\CudaDecoder\kernel.cu(517): warning #546-D: transfer of control bypasses initialization of:
+              variable "decode_success_buffer_end"
+  (524): here
+              variable "decode_success_buffer_device"
+  (525): here
+              variable "sync"
+  (555): here
+              variable "sync_stream"
+  (566): here
+              variable "start"
+  (577): here
+              variable "decrypt_start"
+  (578): here
+              variable "i"
+  (580): here
+  
+C:\Users\Roman\source\rust\rust_is_an_immense_pain\_cuda_\CudaDecoder\kernel.cu(522): warning #546-D: transfer of control bypasses initialization of:
+              variable "decode_success_buffer_end"
+  (524): here
+              variable "decode_success_buffer_device"
+  (525): here
+              variable "sync"
+  (555): here
+              variable "sync_stream"
+  (566): here
+              variable "start"
+  (577): here
+              variable "decrypt_start"
+  (578): here
+              variable "i"
+  (580): here
+  
+C:\Users\Roman\source\rust\rust_is_an_immense_pain\_cuda_\CudaDecoder\kernel.cu(528): warning #546-D: transfer of control bypasses initialization of:
+              variable "sync"
+  (555): here
+              variable "sync_stream"
+  (566): here
+              variable "start"
+  (577): here
+              variable "decrypt_start"
+  (578): here
+              variable "i"
+  (580): here
+  
+C:\Users\Roman\source\rust\rust_is_an_immense_pain\_cuda_\CudaDecoder\kernel.cu(533): warning #546-D: transfer of control bypasses initialization of:
+              variable "sync"
+  (555): here
+              variable "sync_stream"
+  (566): here
+              variable "start"
+  (577): here
+              variable "decrypt_start"
+  (578): here
+              variable "i"
+  (580): here
+  
+C:\Users\Roman\source\rust\rust_is_an_immense_pain\_cuda_\CudaDecoder\kernel.cu(538): warning #546-D: transfer of control bypasses initialization of:
+              variable "sync"
+  (555): here
+              variable "sync_stream"
+  (566): here
+              variable "start"
+  (577): here
+              variable "decrypt_start"
+  (578): here
+              variable "i"
+  (580): here
+  
+C:\Users\Roman\source\rust\rust_is_an_immense_pain\_cuda_\CudaDecoder\kernel.cu(543): warning #546-D: transfer of control bypasses initialization of:
+              variable "sync"
+  (555): here
+              variable "sync_stream"
+  (566): here
+              variable "start"
+  (577): here
+              variable "decrypt_start"
+  (578): here
+              variable "i"
+  (580): here
+  
+C:\Users\Roman\source\rust\rust_is_an_immense_pain\_cuda_\CudaDecoder\kernel.cu(524): warning #177-D: variable "decode_success_buffer_end" was declared but never referenced
+  
+C:\Users\Roman\source\rust\rust_is_an_immense_pain\_cuda_\CudaDecoder\kernel.cu(300): warning #177-D: variable "CIPHERTEXT" was declared but never referenced
+  
+C:\Users\Roman\source\rust\rust_is_an_immense_pain\_cuda_\CudaDecoder\kernel.cu(302): warning #177-D: variable "DECODE_TEST" was declared but never referenced
+  
+C:\Users\Roman\source\rust\rust_is_an_immense_pain\_cuda_\CudaDecoder\kernel.cu(299): warning #2464-D: conversion from a string literal to "char *" is deprecated
+  
+C:\Users\Roman\source\rust\rust_is_an_immense_pain\_cuda_\CudaDecoder\kernel.cu(301): warning #2464-D: conversion from a string literal to "char *" is deprecated
+  
+C:\Users\Roman\source\rust\rust_is_an_immense_pain\_cuda_\CudaDecoder\kernel.cu(302): warning #2464-D: conversion from a string literal to "char *" is deprecated
+  
+C:\Users\Roman\source\rust\rust_is_an_immense_pain\_cuda_\CudaDecoder\kernel.cu(484): warning #546-D: transfer of control bypasses initialization of:
+              variable "decode_success_end"
+  (491): here
+              variable "decode_success_device"
+  (492): here
+              variable "decode_success_buffer_end"
+  (524): here
+              variable "decode_success_buffer_device"
+  (525): here
+              variable "sync"
+  (555): here
+              variable "sync_stream"
+  (566): here
+              variable "start"
+  (577): here
+              variable "decrypt_start"
+  (578): here
+              variable "i"
+  (580): here
+  
+C:\Users\Roman\source\rust\rust_is_an_immense_pain\_cuda_\CudaDecoder\kernel.cu(489): warning #546-D: transfer of control bypasses initialization of:
+              variable "decode_success_end"
+  (491): here
+              variable "decode_success_device"
+  (492): here
+              variable "decode_success_buffer_end"
+  (524): here
+              variable "decode_success_buffer_device"
+  (525): here
+              variable "sync"
+  (555): here
+              variable "sync_stream"
+  (566): here
+              variable "start"
+  (577): here
+              variable "decrypt_start"
+  (578): here
+              variable "i"
+  (580): here
+  
+C:\Users\Roman\source\rust\rust_is_an_immense_pain\_cuda_\CudaDecoder\kernel.cu(495): warning #546-D: transfer of control bypasses initialization of:
+              variable "decode_success_buffer_end"
+  (524): here
+              variable "decode_success_buffer_device"
+  (525): here
+              variable "sync"
+  (555): here
+              variable "sync_stream"
+  (566): here
+              variable "start"
+  (577): here
+              variable "decrypt_start"
+  (578): here
+              variable "i"
+  (580): here
+  
+C:\Users\Roman\source\rust\rust_is_an_immense_pain\_cuda_\CudaDecoder\kernel.cu(500): warning #546-D: transfer of control bypasses initialization of:
+              variable "decode_success_buffer_end"
+  (524): here
+              variable "decode_success_buffer_device"
+  (525): here
+              variable "sync"
+  (555): here
+              variable "sync_stream"
+  (566): here
+              variable "start"
+  (577): here
+              variable "decrypt_start"
+  (578): here
+              variable "i"
+  (580): here
+  
+C:\Users\Roman\source\rust\rust_is_an_immense_pain\_cuda_\CudaDecoder\kernel.cu(505): warning #546-D: transfer of control bypasses initialization of:
+              variable "decode_success_buffer_end"
+  (524): here
+              variable "decode_success_buffer_device"
+  (525): here
+              variable "sync"
+  (555): here
+              variable "sync_stream"
+  (566): here
+              variable "start"
+  (577): here
+              variable "decrypt_start"
+  (578): here
+              variable "i"
+  (580): here
+  
+C:\Users\Roman\source\rust\rust_is_an_immense_pain\_cuda_\CudaDecoder\kernel.cu(510): warning #546-D: transfer of control bypasses initialization of:
+              variable "decode_success_buffer_end"
+  (524): here
+              variable "decode_success_buffer_device"
+  (525): here
+              variable "sync"
+  (555): here
+              variable "sync_stream"
+  (566): here
+              variable "start"
+  (577): here
+              variable "decrypt_start"
+  (578): here
+              variable "i"
+  (580): here
+  
+C:\Users\Roman\source\rust\rust_is_an_immense_pain\_cuda_\CudaDecoder\kernel.cu(517): warning #546-D: transfer of control bypasses initialization of:
+              variable "decode_success_buffer_end"
+  (524): here
+              variable "decode_success_buffer_device"
+  (525): here
+              variable "sync"
+  (555): here
+              variable "sync_stream"
+  (566): here
+              variable "start"
+  (577): here
+              variable "decrypt_start"
+  (578): here
+              variable "i"
+  (580): here
+  
+C:\Users\Roman\source\rust\rust_is_an_immense_pain\_cuda_\CudaDecoder\kernel.cu(522): warning #546-D: transfer of control bypasses initialization of:
+              variable "decode_success_buffer_end"
+  (524): here
+              variable "decode_success_buffer_device"
+  (525): here
+              variable "sync"
+  (555): here
+              variable "sync_stream"
+  (566): here
+              variable "start"
+  (577): here
+              variable "decrypt_start"
+  (578): here
+              variable "i"
+  (580): here
+  
+C:\Users\Roman\source\rust\rust_is_an_immense_pain\_cuda_\CudaDecoder\kernel.cu(528): warning #546-D: transfer of control bypasses initialization of:
+              variable "sync"
+  (555): here
+              variable "sync_stream"
+  (566): here
+              variable "start"
+  (577): here
+              variable "decrypt_start"
+  (578): here
+              variable "i"
+  (580): here
+  
+C:\Users\Roman\source\rust\rust_is_an_immense_pain\_cuda_\CudaDecoder\kernel.cu(533): warning #546-D: transfer of control bypasses initialization of:
+              variable "sync"
+  (555): here
+              variable "sync_stream"
+  (566): here
+              variable "start"
+  (577): here
+              variable "decrypt_start"
+  (578): here
+              variable "i"
+  (580): here
+  
+C:\Users\Roman\source\rust\rust_is_an_immense_pain\_cuda_\CudaDecoder\kernel.cu(538): warning #546-D: transfer of control bypasses initialization of:
+              variable "sync"
+  (555): here
+              variable "sync_stream"
+  (566): here
+              variable "start"
+  (577): here
+              variable "decrypt_start"
+  (578): here
+              variable "i"
+  (580): here
+  
+C:\Users\Roman\source\rust\rust_is_an_immense_pain\_cuda_\CudaDecoder\kernel.cu(543): warning #546-D: transfer of control bypasses initialization of:
+              variable "sync"
+  (555): here
+              variable "sync_stream"
+  (566): here
+              variable "start"
+  (577): here
+              variable "decrypt_start"
+  (578): here
+              variable "i"
+  (580): here
+  
+  kernel.cu
+     Creating library C:\Users\Roman\source\rust\rust_is_an_immense_pain\_cuda_\CudaDecoder\x64\Release\CudaDecoder.lib and object C:\Users\Roman\source\rust\rust_is_an_immense_pain\_cuda_\CudaDecoder\x64\Release\CudaDecoder.exp
+  LINK : /LTCG specified but no code generation required; remove /LTCG from the link command line to improve linker performance
+  CudaDecoder.vcxproj -> C:\Users\Roman\source\rust\rust_is_an_immense_pain\_cuda_\CudaDecoder\x64\Release\CudaDecoder.exe

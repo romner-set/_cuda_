@@ -1,0 +1,1 @@
+C:\Users\Roman\source\rust\rust_is_an_immense_pain\_cuda_\CudaDecoder\x64\Release\CudaDecoder.exe
