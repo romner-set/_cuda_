@@ -366,6 +366,7 @@ __global__ void validate_utf8(size_t max_key_length, char* keys, char* decoded_u
 		uint8_t c = *ptr;
 		if (c < 0x20 || c > 0x7E) {
 			valid = false;
+			break;
 		}
 	}
 
